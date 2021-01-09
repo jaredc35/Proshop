@@ -13,8 +13,7 @@ const ProductScreen = ({ match }) => {
       setProduct(data);
     };
     fetchProduct();
-    //eslint-disable-nextline
-  }, []);
+  }, [match]);
 
   return (
     <>
